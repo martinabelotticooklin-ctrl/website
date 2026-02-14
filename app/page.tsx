@@ -5,7 +5,7 @@ export default function Home() {
         <section id="about" className="pt-6">
           <h1 className="text-4xl font-bold site-title">Martina Belotti Cooklin</h1>
           <p className="mt-4 lead-text text-lg">
-            Hello — I'm Martina. I'm a [brief descriptor here]. I build things that
+            Hello — I'm Martina!!!! I'm a [brief descriptor here]. I build things that
             connect people, design meaningful experiences, and explore the
             intersection of art and technology.
           </p>
