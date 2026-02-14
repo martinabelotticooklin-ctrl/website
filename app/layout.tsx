@@ -27,7 +27,40 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        {children}
+        <header className="top-nav sticky top-0 z-50">
+          <div className="mx-auto flex max-w-5xl items-center justify-between px-6 py-3">
+            <a href="/" className="site-title text-xl font-semibold">
+              Martina Belotti Cooklin
+            </a>
+            <nav>
+              <ul className="flex gap-2">
+                <li>
+                  <a href="/" className="px-4 py-2 sage-text font-medium">
+                    About Me
+                  </a>
+                </li>
+                <li>
+                  <a href="/works" className="px-4 py-2 sage-text font-medium">
+                    Works
+                  </a>
+                </li>
+                <li>
+                  <a href="/resources" className="px-4 py-2 sage-text font-medium">
+                    Resources
+                  </a>
+                </li>
+                <li>
+                  <a href="/events" className="px-4 py-2 sage-text font-medium">
+                    Events
+                  </a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </header>
+        <main>
+          {children}
+        </main>
       </body>
     </html>
   );
